@@ -1,0 +1,10 @@
+App(
+    appid="helloflipper",
+    name="Hello flipper",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="helloflipper_main",
+    requires=["gui"],
+    stack_size=1 * 1024,
+    fap_category="Examples",
+    fap_icon_assets="images",
+)
