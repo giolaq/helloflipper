@@ -1,6 +1,8 @@
 # Flipper Hello World app
 This project is an Hello World app for Flipper Zero.
 
+<img src="https://github.com/giolaq/helloflipper/blob/main/gif/helloworld.gif" alt="Demo" width="600"/>
+
 It was tested with the firmware version 0.70.1.
 
 The app will shown on the Flipper Zero display an airplane image and you can move the airplane
