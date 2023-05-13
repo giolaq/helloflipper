@@ -21,7 +21,7 @@ $ mkdir helloflipper
 ```
 3.Add the content of this project in the *helloflipper* folder
 ```sh 
-git clone --recursive https://github.com/flipperdevices/flipperzero-firmware.git
+git clone --recursive https://github.com/giolaq/helloflipper.git
 ```
 
 4.Build the firmware running
