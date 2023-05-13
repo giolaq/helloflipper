@@ -3,7 +3,7 @@ This project is an Hello World app for Flipper Zero.
 
 <img src="https://github.com/giolaq/helloflipper/blob/main/gif/helloworld.gif" alt="Demo" width="600"/>
 
-It was tested with the firmware version 0.70.1.
+It was tested with the firmware version 0.82.3.
 
 The app will shown on the Flipper Zero display an airplane image and you can move the airplane
 by using the directional pad.
@@ -26,14 +26,18 @@ git clone --recursive https://github.com/giolaq/helloflipper.git
 
 4.Build the firmware running
 ```sh
-$ ./fbt
+$ ../fbt
 ```
-5.Build the Hello World app running
+5.Go up one directory
 ```sh
-./fbt fap_helloflipper
+$ cd ../
 ```
-6.Connect the Flipper Zero with via the USB-C
-7.Launch the Hello World app running
+6.Build the Hello World app running
 ```sh
-./fbt launch_app APPSRC=applications/helloflipper
+$ ./fbt fap_helloflipper
+```
+7.Connect the Flipper Zero with via the USB-C
+8.Launch the Hello World app running
+```sh
+$ ./fbt launch_app APPSRC=applications/helloflipper
 ```
